@@ -1,0 +1,725 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&family=Radio+Canada&family=Roboto&family=Tinos:ital,wght@0,400;1,700&family=Ubuntu&display=swap");
+.wrapper {
+  overflow: hidden;
+}
+body {
+  margin: 0 auto;
+  /* background-color: black; */
+}
+.container {
+  margin: 0px 10px;
+}
+
+.wrapper {
+}
+.head {
+  background: url(../travel/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png);
+
+  height: 100vh;
+
+  max-width: 100%;
+  position: relative;
+}
+.head__row {
+  display: flex;
+  justify-content: space-between;
+}
+.head__images {
+  margin-top: 60px;
+  margin-left: 76px;
+}
+.head__list {
+  margin-top: 40px;
+}
+.head__images2 {
+  margin-top: 36px;
+}
+.head__images2 img {
+  margin-right: 40px;
+}
+.head__list a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.head__end {
+  /* margin-top: 100px;
+  margin-left: 400px;
+  text-align: center; */
+  /* margin-right: 350px; */
+  position: absolute;
+  top: 288px;
+  left: 386px;
+}
+.headend__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  margin-bottom: 57px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.headend__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.headend__buttom {
+  margin-top: 30px;
+  padding: 14px 24px 13px 24px;
+
+  width: 200px;
+  margin-left: 120px;
+  background: #00a651;
+  border-radius: 10px;
+}
+.btn1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.service__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  padding-left: 50px;
+}
+.service__card {
+  background: #f9f9f9;
+  border-radius: 15px;
+  width: 416px;
+  height: 232px;
+  margin-left: 50px;
+}
+.service__images {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.servicecard__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  padding-bottom: 24px;
+  color: #000000;
+}
+.servicecard__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+.servicecard__title {
+}
+.service__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 33px;
+  color: #000000;
+}
+.best {
+  background: url(../travel/world_map_PNG28\ 1.png);
+  margin-top: 100px;
+  /* opacity: 0.32; */
+}
+.best__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 19px;
+  color: #000000;
+}
+.best__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 119px;
+  color: #000000;
+}
+.best__row {
+  display: flex;
+  justify-content: space-between;
+}
+.best__card {
+}
+.best__images {
+  padding-bottom: 29px;
+}
+.best__title2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  padding-bottom: 20px;
+
+  color: #000000;
+}
+.best__text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #000000;
+}
+.popular__title {
+  margin-top: 72px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #000000;
+}
+.popular {
+}
+.conatainer {
+}
+.popular__title {
+}
+.popular__row {
+  display: flex;
+}
+.popular__left {
+  margin-right: 50px;
+  display: block;
+}
+.popular__right {
+  display: flex;
+}
+.popular__images {
+}
+.popular__title2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-left: 49px;
+  color: #000000;
+  margin-bottom: 98px;
+  margin-top: 98px;
+}
+.popular__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-left: 50px;
+  margin-bottom: 98px;
+  margin-top: 98px;
+  color: #000000;
+}
+.packa {
+  background: #ecf1f0;
+}
+.packa__title {
+  margin-top: 59px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 52px;
+  color: #000000;
+}
+.packa__row {
+}
+.packa__btn {
+  margin-bottom: 107px;
+}
+.btn0 {
+  background: #00a651;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 17px 10px 17px 10px;
+  margin-bottom: 107px;
+}
+.bnt1 {
+  margin-bottom: 107px;
+  background: #666666;
+  border-radius: 10px;
+  padding: 16px 24px 16px 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.packa__row {
+  display: flex;
+  justify-content: space-between;
+}
+.packa__block {
+  background: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  margin-right: 19px;
+  width: 434px;
+}
+.block__images {
+}
+.block__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+.block__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(0, 0, 0, 0.81);
+  margin-top: 6px;
+}
+.block__foot {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-around;
+}
+.packa__bnt {
+  margin-top: 117px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 167px;
+}
+
+.btn4 {
+  text-align: center;
+  background-color: #00a651;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding: 20px 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.book {
+}
+.book__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #000000;
+}
+.book__card {
+  display: flex;
+  flex-direction: column;
+}
+.book__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 62px;
+}
+.book__row {
+  display: flex;
+  justify-content: space-between;
+}
+.book__card {
+  margin-bottom: 52px;
+  /* border: 5px solid black; */
+}
+.book__images {
+  background-color: #000000;
+  background: #f0bb1f;
+  border-radius: 13px;
+  width: 65.21px;
+  /* margin-bottom: 82px; */
+}
+.vector {
+  /* text-align: center; */
+  margin-left: 15px;
+}
+.book__cardtitle {
+  margin-top: 20px;
+}
+.book__cardtext {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #5e6282;
+}
+.book__images1 {
+  width: 65.21px;
+  height: 42px;
+  background: orangered;
+  border-radius: 13px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.book__images2 {
+  background-color: blue;
+  width: 65.21px;
+  height: 50px;
+  border-radius: 13px;
+  margin-top: 20px;
+}
+.book__row2 {
+  display: flex;
+}
+.bc {
+  display: inline-block;
+  display: flex;
+}
+.book2 {
+  display: flex;
+}
+.book2__row {
+  display: flex;
+}
+.packa__head {
+  /* border: 5px solid black; */
+  margin-bottom: 30px;
+}
+.packa__headrow {
+  display: flex;
+  justify-content: space-between;
+}
+.packa__headrow a {
+  background-color: #00a651;
+  padding: 17px 10px 17px 10px;
+  text-decoration: none;
+  color: #fff;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  border-radius: 6px;
+}
+.popular {
+}
+.popular__title {
+}
+.popular__left {
+}
+.popular__right {
+  /* border: 5px solid; */
+  display: flex;
+}
+.popular__row {
+  display: flex;
+}
+.popu {
+  display: flex;
+  justify-content: space-between;
+}
+.popular__right {
+  display: block;
+}
+.popular__images {
+  display: block;
+}
+.popular__title2 {
+}
+
+.ima1 {
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+}
+.text {
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding-bottom: 90px;
+}
+
+.popular__text2 {
+}
+.popular__title2 {
+}
+.book__right {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 26px;
+  width: 370px;
+}
+.book__iamges {
+}
+.bright__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  letter-spacing: 0.015em;
+
+  /* black */
+
+  color: #080809;
+}
+.bright__title {
+  font-family: "Poppins";
+  margin-top: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: -0.005em;
+
+  /* text 2 */
+
+  color: #84829a;
+}
+.bright__iamges {
+  position: relative;
+}
+.v1 {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+.v2 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+.what {
+  margin-top: 46px;
+  margin-bottom: 59px;
+  background: #ecf1f0;
+  padding-left: 50px;
+  position: relative;
+}
+.what__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 59px;
+  color: #000000;
+}
+.what__images {
+  margin: auto auto;
+  position: relative;
+}
+.what__card {
+  background: #ffffff;
+  box-shadow: 0px 4px 59px 9px rgba(0, 0, 0, 0.05);
+  width: 738px;
+  height: 250px;
+  position: absolute;
+  left: 228px;
+  top: 453px;
+}
+.car__images {
+  text-align: center;
+}
+.car__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.car__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+.finish {
+  margin-top: 170px;
+  background: #32df8f;
+}
+.finish__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  /* or 164% */
+  padding-top: 79px;
+  text-align: center;
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.finish__row {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+.finish__email {
+  padding-top: 76px;
+}
+.finish__text2 {
+}
+.finish__buttom {
+  padding-left: 30px;
+}
+.btn9 {
+  padding: 23px 30px 23px 30px;
+  background-color: #32df8f;
+  background: #00a651;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+
+  /* white */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+.email {
+  padding-left: 30px;
+  /* position: absolute; */
+}
+.group {
+  /* position: absolute; */
+  /* top: 279px;
+  left: 490px; */
+}
+@media (max-width: 767px) {
+  .service__row {
+    display: block;
+  }
+  .best__row {
+    display: block;
+  }
+  .best__text2 {
+    text-align: left;
+  }
+  .packa__row {
+    display: block;
+  }
+  .head {
+    position: relative;
+  }
+  .head__end {
+    position: static;
+  }
+  .what__card {
+    position: static;
+    width: 100%;
+  }
+  .book__right {
+    display: block;
+    max-width: 100%;
+  }
+  .rig {
+    max-width: 100%;
+  }
+  .headend__buttom {
+    display: none;
+    max-width: 60%;
+    text-align: center;
+    margin-right: 20px;
+  }
+}
+.word {
+  max-width: 100%;
+}
+.word2 {
+  max-width: 90%;
+}
