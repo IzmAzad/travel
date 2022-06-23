@@ -680,7 +680,7 @@ body {
   /* top: 279px;
   left: 490px; */
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .service__row {
     display: block;
   }
@@ -722,4 +722,14 @@ body {
 }
 .word2 {
   max-width: 90%;
+}
+@media (max-width: 1324px) {
+  .packa__row {
+    display: block;
+  }
+}
+@media (max-width: 928px) {
+  .what__card {
+    position: static;
+  }
 }
